@@ -1,0 +1,13 @@
+name: Push to Github
+run-name: ${{ gitea.actor }} is pushing repo to Github
+on: [push]
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: List files
+        run: |
+          ls ${{ gitea.workspace }}

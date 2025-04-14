@@ -1,4 +1,4 @@
-# Eternal
+# Chronolock
 
 This whole README is currently being worked on.
 
@@ -15,7 +15,7 @@ Not really much else to it, made so it also can be played with a server with fri
 1. Download [PrismLauncher](https://prismlauncher.org/download/)
 2. Click "Add Instance"
 3. On the left side press "Import from zip"
-4. Then either copy this url and paste it `https://github.com/Aethrexal/Eternal/releases/download/7.0.1/Eternal.zip` or download the [latest](https://github.com/Aethrexal/Eternal/releases) the zip file and import it that way.
+4. Then either copy this url and paste it `https://git.gliroid.com/Pupyrinth/Chronolock/releases/download/7.0.2/Eternal.zip` or download the [latest](https://git.gliroid.com/Pupyrinth/Chronolock/releases) the zip file and import it that way.
 5. Click "OK"
 6. Done, unless you wanna change RAM then keep reading
 
