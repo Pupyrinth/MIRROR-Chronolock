@@ -3,7 +3,7 @@ run-name: ${{ gitea.actor }} is pushing repo to Github
 on: [push]
 
 jobs:
-  push:
+  push-to-github:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
