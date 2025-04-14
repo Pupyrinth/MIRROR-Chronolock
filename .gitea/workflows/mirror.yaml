@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - name: List files
+      - name: Prepend README
         run: |
-          ls ${{ gitea.workspace }}
+          cat README.md
+          echo -e "THIS REPO IS A MIRROR OF https://git.gliroid.com/Pupyrinth/Chronolock!\n\n$(cat README.md)" > README.md
+          cat README.md
